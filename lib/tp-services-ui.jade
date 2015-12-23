@@ -1,0 +1,26 @@
+template(name="tpServicesUi")
+  .tp-services-ui
+    h2 hey hey
+    .some-sample-buttons
+      button(btn="action") Action
+      button(btn="critical") Critical
+      button(btn="critical large sharp") Large
+    .background-sample-box(color:item) some content
+    .background-sample-box(color:item)
+      //- has shadow
+      button(btn="action raised") Action
+    .background-sample-box(color:neutral-dark)
+      button(btn="warning") Orange
+    .background-sample-box(color:neutral-dark)
+      button(btn="warning outline") Orange
+    //- transparent colors
+    .background-sample-box(color:critical)
+      button(btn="light") light
+    .background-sample-box(color:critical)
+      button(btn="dark") dark
+    //- REFERENCE
+    //- BUTTON VARIATIONS: "raised", "outline", "transprent"
+    //- BUTTON SIZES "tiny", "small", "large", "x-large" "jumbo"
+    //- BUTTON SHAPES "rounded", "pill", "circle", "sharp", "sharp-left", "sharp-right"
+    //- COLOR VALUES FOR BUTTONS AND BACKGROUNDS: "white", "item", "backdrop", "item-alt", "backdrop-alt", "neutral-tint", "neutral-faded", "neutral", "neutral-light", "neutral-dim", "neutral-dark", "brand", "action", "warning", "critical", "dark", "light", "positive", "negative", "primary-header", "action-menu", "action-menu-items", "main-menu-header", "main-menu-items", "main-menu-button"
+
