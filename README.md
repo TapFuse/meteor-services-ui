@@ -1,3 +1,5 @@
+### Package is no longer maintaned.
+
 # Services UI
 [![Meteor Icon](http://icon.meteor.com/package/tapfuse:services-ui)](https://atmospherejs.com/tapfuse/services-ui)
 
